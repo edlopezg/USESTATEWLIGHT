@@ -1,13 +1,54 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.individual-lamp{
+display: flex;
+flex-direction: row;
+gap: 30px;
+flex-wrap: wrap;
+justify-content: center;
+/* display: none; */
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.global-lamp{
+display: flex;
+flex-direction: row;
+gap: 30px;
+flex-wrap: wrap;
+justify-content: center;
+
+
+
+
 }
+.lamp-and-btn{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  
+}
+
+.lamp {
+  width: 200px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+ 
+
+}
+
+.off{
+  background-color: yellow;
+}
+
+.on{
+   background-color: rgb(67, 67, 67);
+}
+
+.lamp-btn-on{
+
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  background-color: green;
+  border-radius: 5px;
+}
+
